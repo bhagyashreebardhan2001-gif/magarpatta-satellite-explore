@@ -1,1 +1,58 @@
-https://bhagyashreebardhan2001.users.earthengine.app/view/magarpatta-vegetation-viewer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magarpatta Vegetation Viewer | Thesis Satellite Explorer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Magarpatta Vegetation Viewer</h1>
+    <p>A satellite-based tool for monitoring vegetation cover in Magarpatta using Google Earth Engine.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>
+        This project provides an interactive web application built on Google Earth Engine to
+        visualize and analyze vegetation cover in the Magarpatta study area. Users can select
+        between multiple satellite datasets, define custom date ranges, filter by cloud cover,
+        and view NDVI-based vegetation trends over time.
+      </p>
+    </section>
+
+    <section>
+      <h2>Datasets Used</h2>
+      <ul>
+        <li><strong>Sentinel-2 (SR, Harmonized)</strong> &mdash; European Space Agency (ESA)</li>
+        <li><strong>Landsat 9 (Level-2, Surface Reflectance)</strong> &mdash; USGS / NASA</li>
+        <li><strong>MODIS NDVI (MOD13Q1)</strong> &mdash; NASA LP DAAC</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Study Area</h2>
+      <p>Magarpatta, Pune, Maharashtra, India</p>
+      <img src="assets/study-area.png" alt="Magarpatta study area boundary map" width="500">
+    </section>
+
+    <section>
+      <h2>Live Application</h2>
+      <p>
+        <a href="https://bhagyashreebardhan2001.users.earthengine.app/view/magarpatta-vegetation-viewer" target="_blank" rel="noopener noreferrer">
+          Launch the Earth Engine App &rarr;
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed by Bhagyashree Bardhan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
